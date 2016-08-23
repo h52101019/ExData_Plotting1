@@ -24,7 +24,7 @@ with(data, {
   lines(x = Time, y = Sub_metering_3, col = "blue")
   legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
          col = c("black", "red", "blue"), lty = c(1, 1, 1),
-         bty = "n", cex = 0.07)
+         bty = "n", cex = 0.05)
 })
 # Figure 4
 with(data, plot(x = Time,
